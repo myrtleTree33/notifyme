@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  height: 100%;
+}
+
+.white {
+  color: #fff;
+}
+
+html, body {
+  background: #2185C5;
+  height: 100%;
+  color: #fff;
+  font-family: 'Lato';
+  font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 300;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+h1 {
+  font-size: 3.1em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+.corrected {
+  position: relative;
+  right: -7.4em;
+  top: -3em;
+  z-index: 2;
+}
